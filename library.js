@@ -14,11 +14,6 @@ const plugin = {};
 plugin.init = async (params) => {
 	const { router /* , middleware , controllers */ } = params;
 
-	const { setting1, setting2 } = await meta.settings.get('quickstart');
-	if (setting1) {
-		console.log(setting2);
-	}
-
 	routeHelpers.setupAdminPageRoute(router, '/admin/plugins/quickstart', controllers.renderAdminPage);
 };
 
