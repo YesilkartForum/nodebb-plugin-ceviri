@@ -23,6 +23,6 @@
 		"../client/quickstart.js": "./static/lib/quickstart.js",
 		"../admin/plugins/quickstart.js": "./static/lib/admin.js"
 	},
-	"templates": "static/templates"
+	"templates": "static/templates",
 	"languages": "languages"
 }
