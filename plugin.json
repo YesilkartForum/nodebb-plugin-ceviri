@@ -1,6 +1,6 @@
 {
-	"id": "nodebb-plugin-quickstart",
-	"url": "https://github.com/NodeBB/nodebb-plugin-quickstart",
+	"id": "nodebb-plugin-ceviri",
+	"url": "https://github.com/YesilkartForum/nodebb-plugin-ceviri",
 	"library": "./library.js",
 	"hooks": [
 		{ "hook": "static:app.load", "method": "init" },
@@ -24,4 +24,5 @@
 		"../admin/plugins/quickstart.js": "./static/lib/admin.js"
 	},
 	"templates": "static/templates"
+	"languages": "languages"
 }
