@@ -1,6 +1,6 @@
 {
 	"id": "nodebb-plugin-ceviri",
-	"url": "https://github.com/NodeBB/nodebb-plugin-quickstart",
+	"url": "https://github.com/YesilkartForum/nodebb-plugin-ceviri",
 	"library": "./library.js",
 	"hooks": [
 		{ "hook": "static:app.load", "method": "init" },
